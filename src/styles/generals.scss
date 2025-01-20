@@ -1,43 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
 }
-.body{
-    height: 100vh;
+
+body {
+    overflow-x: hidden;
 }
-.bg-colors{
+
+.bg-colors {
     background: linear-gradient(-45deg, #000000, #5c1c34, #490a6e, #0d376a);
-      background-size: 400% 400%;
-      animation: gradient 15s ease infinite;
-  }
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
 
-  .bg-tech{
-    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
-   background-blend-mode: screen;
-  }
-  .bg-violette{
+.bg-tech {
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
+    background-blend-mode: screen;
+}
+
+.bg-violette {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #9423d5, #2373d5);
-      background-size: 400% 400%;
-      animation: gradient 15s ease infinite;
-  }
-  
-  @keyframes gradient {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
-  }
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
 
-  .bg-yellow{
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.bg-yellow {
     background-color: rgb(255, 255, 84);
     padding: 5px;
     color: black;
@@ -45,10 +51,11 @@
 }
 
 @keyframes imin {
-    0%{
+    0% {
         background-color: rgba(255, 255, 84, 0);
     }
-    100%{
+
+    100% {
         background-color: rgb(255, 255, 84);
     }
 }

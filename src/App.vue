@@ -11,9 +11,11 @@ export default {
 </script>
 
 <template>
-  <AppNav/>
-  <router-view></router-view>
-  <AppFooter/>
+  <div class="app-wrapper">
+    <AppNav/>
+    <router-view></router-view>
+    <AppFooter/>
+  </div>
 </template>
 
 <style lang="scss">

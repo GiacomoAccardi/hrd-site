@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <nav>
       <div class="d-flex p-3 justify-content-between align-items-center">
         <div class="content logo-box">
           <router-link class="td-none" to="/"><h1>Giacomo Accardi</h1></router-link>
@@ -39,13 +39,13 @@
           </router-link>
         </div>
       </div>
-    </header>
+    </nav>
   </template> 
   <style lang="scss">
     .td-none {
       text-decoration: none;
     }
-    header {
+    nav {
       background: rgba(0, 0, 0, 0.169);
       position: fixed;
       z-index: 2;
