@@ -1,12 +1,11 @@
-import { createMemoryHistory, createRouter } from 'vue-router'
+import { createWebHashHistory, createRouter } from 'vue-router'
 
 import HomeView from './views/HomeView.vue';
 import AboutView from './views/AboutView.vue';
-import ServicesView from './views/ServicesView.vue';
 import ContactsView from './views/ContactsView.vue';
 
 const router = createRouter({
-  history: createMemoryHistory(),
+  history: createWebHashHistory(),
   routes: [
     {
         path: '/',
@@ -17,11 +16,6 @@ const router = createRouter({
       path: '/chisono',
       name: 'chisono',
       component: AboutView
-    },
-    {
-      path: '/servizi',
-      name: 'servizi',
-      component: ServicesView
     },
     {
       path: '/contatti',

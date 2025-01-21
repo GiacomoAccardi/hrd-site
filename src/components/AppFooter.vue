@@ -8,7 +8,7 @@ export default {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <div class="div vh-100 d-flex flex-column align-items-center justify-content-center">
+                    <div class="vh-50 d-flex flex-column align-items-center justify-content-center">
 
                         <h2 class="text-white">Giacomo Accardi &#x24B8; 2025</h2>
                         <div class="foot-menu d-flex flex-column align-items-center gap-3 mt-5">
@@ -19,16 +19,6 @@ export default {
                             >
                               <span class="text-white menu-item">
                                 Chi sono?
-                              </span>
-                            </router-link>
-                            
-                            <!-- Router-link per "Servizi" -->
-                            <router-link
-                              class="td-none"
-                              to="/servizi"
-                              >
-                              <span class="text-white menu-item">
-                                Servizi
                               </span>
                             </router-link>
                     
@@ -55,4 +45,7 @@ export default {
     </footer>
 </template>
 <style lang="scss">
+  .vh-50{
+    height: 50vh;
+  }
 </style>

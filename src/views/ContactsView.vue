@@ -4,7 +4,7 @@ export default {
 }
 </script>
 <template>
-    <div class="wrapper-about bg-colors d-flex justify-content-center align-items-center flex-column p-5">
+    <div class="wrapper-about bg-black d-flex justify-content-center align-items-center flex-column p-5">
         <h1 class="txt-block text-white mt-5 p-5 mb-5">Vuoi contattarmi? Ecco come &#128222;</h1>
         <h4 class="bg-yellow mb-3">Vuoi contattarmi tramite mail? &#128231;</h4>
         <p class="text-white mb-5">giacomo.accardi.lavoro@gmail.com</p>
@@ -17,6 +17,9 @@ export default {
 <style lang="scss">
 .wrapper-about {
     height: 100vh;
+    @media(max-width: 768px) {
+        margin-top: 85px;
+    }
 }
 
 .txt-block {
