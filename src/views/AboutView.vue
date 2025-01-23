@@ -1,8 +1,3 @@
-<script>
-export default {
-
-}
-</script>
 <template>
     <div class="wrapper-about bg-black d-flex justify-content-center align-items-center">
         <div class="os-window">
@@ -60,7 +55,7 @@ export default {
 </template>
 <style lang="scss">
 .wrapper-about {
-    height: fit-content;
+    height: 90vh;
 
     .os-window {
         height: 550px;
@@ -123,15 +118,18 @@ export default {
     display: none;
     overflow-x: hidden;
     margin: 30px;
+
     pre {
         overflow: hidden;
+
         @media(max-width: 768px) {
-            font-size: 6pt;  
+            font-size: 6pt;
         }
     }
+
     @media(max-width: 992px) {
-        display: block;   
-        margin-top: -80px;    
+        display: block;
+        margin-top: -80px;
     }
 }
 

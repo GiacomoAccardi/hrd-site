@@ -9,7 +9,7 @@
                 </div>
                 <div class="col-12">
                     <div class="box d-flex flex-column align-items-center justify-content-start p-md-3">
-                        <h1 class="fw-bold bg-yellow py-3 p-md-3">
+                        <h1 class="fw-bold bg-yellow p-3">
                             Cerchi qualcuno che possa realizzare<br>
                             un sito web per la tua azienda?<br>
                             Hai bisogno di una finestra sul web <br>
@@ -27,17 +27,16 @@
                         <h1 class="text-yellow text-end title fw-bold">Trovo la <br> soluzione <br>giusta per te.</h1>
                         <h1 class="title2 text-white text-start">Possiamo costruire <br>
                             insieme:</h1>
-                        <ul class="text-white py-3 p-md-3 fw-lighter">
-                            <li><span>Un sito vetrina per il tuo <br>
-                            prodotto o la tua attività</span></li>
+                        <ul class="text-white p-4 p-md-3 fw-lighter">
+                            <li>Un sito vetrina per il tuo <br>
+                            prodotto o la tua attività</li>
                             <br>
-                            <li><span class="text-end">Una Web App gestionale<br>
+                            <li class="text-end">Una Web App gestionale<br>
                             per la tua azienda, <br>
                             il tuo ristorante, <br>
-                            il tuo blog.</span></li>
+                            il tuo blog.</li>
                             <br>
-                            <li><span>Il tuo e-commerce. Per vendere <br>
-                            i tuoi prodotti sul web.</span></li>
+                            <li>Il tuo e-commerce.</li>
                         </ul>
                     </div>
                 </div>
@@ -69,7 +68,7 @@
 </template>
 <style lang="scss">
     .box {
-        min-height: 50vh;  
+        min-height: 30vh;  
     }
     .title{
         font-size: 5rem; 

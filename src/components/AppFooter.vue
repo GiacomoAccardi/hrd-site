@@ -12,6 +12,14 @@ export default {
 
                         <h2 class="text-white">Giacomo Accardi &#x24B8; 2025</h2>
                         <div class="foot-menu d-flex flex-column align-items-center gap-3 mt-5">
+                            <router-link 
+                            class="td-none" 
+                            to="/"
+                            >
+                            <span class="text-white menu-item">
+                              Home
+                            </span>
+                            </router-link>
                             <!-- Router-link per "Chi sono?" -->
                             <router-link
                               class="td-none"

@@ -4,8 +4,8 @@ export default {
 }
 </script>
 <template>
-    <div class="wrapper-about bg-black d-flex justify-content-center align-items-center flex-column p-5">
-        <h1 class="txt-block text-white mt-5 p-5 mb-5">Vuoi contattarmi? Ecco come &#128222;</h1>
+    <div class="wrapper-about bg-black d-flex justify-content-center align-items-center flex-column px-4">
+        <h1 class="txt-block text-white p-5 mb-5">Vuoi contattarmi? Ecco come &#128222;</h1>
         <h4 class="bg-yellow mb-3">Vuoi contattarmi tramite mail? &#128231;</h4>
         <p class="text-white mb-5">giacomo.accardi.lavoro@gmail.com</p>
         <h4 class="bg-yellow mb-3">Vuoi fare una chiamata conoscitiva? &#128241;</h4>
@@ -16,10 +16,7 @@ export default {
 </template>
 <style lang="scss">
 .wrapper-about {
-    height: 100vh;
-    @media(max-width: 768px) {
-        margin-top: 85px;
-    }
+    height: 90vh;
 }
 
 .txt-block {

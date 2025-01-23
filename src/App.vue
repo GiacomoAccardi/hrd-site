@@ -3,18 +3,18 @@ import { router } from './router';
 import AppNav from './components/AppNav.vue';
 import AppFooter from './components/AppFooter.vue';
 export default {
-    components:{
-      AppNav,
-      AppFooter
-    }
+  components: {
+    AppNav,
+    AppFooter
+  }
 }
 </script>
 
 <template>
   <div class="app-wrapper">
-    <AppNav/>
+    <AppNav />
     <router-view></router-view>
-    <AppFooter/>
+    <AppFooter />
   </div>
 </template>
 
